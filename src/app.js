@@ -7,7 +7,7 @@ const mongoose = require('mongoose')
 const app = express();
 const router = express.Router();
 
-mongoose.connect('mongodb://guilherme:gui2812@ds018498.mlab.com:18498/nodestore')
+mongoose.connect('mongodb://user:password@ds018498.mlab.com:18498/nodestore')
 
 const Product = require('./models/product');
 
